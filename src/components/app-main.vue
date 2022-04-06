@@ -4,6 +4,7 @@
     <featureList />
     <secondryMain />
     <reviewList />
+    <getStarted />
   </main>
 </template>
 
@@ -12,6 +13,7 @@ import intro from './intro.vue'
 import featureList from './feature-list.vue'
 import secondryMain from './secondryMain.vue'
 import reviewList from './review-list.vue'
+import getStarted from './get-started.vue'
 export default {
   created() {},
   data() {
@@ -19,7 +21,13 @@ export default {
   },
   methods: {},
   computed: {},
-  components: { intro, featureList, secondryMain, reviewList },
+  components: {
+    intro,
+    featureList,
+    secondryMain,
+    reviewList,
+    getStarted,
+  },
   unmounted() {},
 }
 </script>

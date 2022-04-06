@@ -1,33 +1,38 @@
 .review-preview {
-    background-color: #202A3C;
-    border-radius: 3%;
-  .container {
-    display: flex;
-    justify-content: start;
-    
-  }
-  img {
-    border-radius: 100%;
-    width: 24px;
-  }
+  background-color: #202a3c;
+  border-radius: 3%;
+  padding: 26px;
+  @include flex(column,center,flex-start);
   .review {
     font-family: OpenSans-Regular;
     font-size: 14px;
-    
+    padding-top: 14px;
   }
-  .card {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    .name {
-      font-family: OpenSans-Bold;
-      font-size: 10px;
-      width: 100%;
+
+  .container {
+    @include flex();
+    gap: 8px;
+    padding-top: 26px;
+
+    img {
+      border-radius: 100%;
+      width: 24px;
     }
-    .job {
-      font-family: OpenSans-Regular;
-      font-size: 7px;
-      width: 100%;
+
+    .card {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      .name {
+        font-family: OpenSans-Bold;
+        font-size: 10px;
+        width: 100%;
+      }
+      .job {
+        font-family: OpenSans-Regular;
+        font-size: 7px;
+        width: 100%;
+      }
     }
   }
 }

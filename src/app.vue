@@ -1,21 +1,18 @@
-/<template>
+/
+<template>
   <section class="main-layout">
-    <app-header/>
-    <app-main/>
+    <app-header />
+    <app-main />
+    <app-footer />
   </section>
 </template>
 
 <script>
- import appHeader from './components/app-header.vue'
- import appMain from './components/app-main.vue'
- 
- 
+import appHeader from './components/app-header.vue'
+import appMain from './components/app-main.vue'
+import appFooter from './components/app-footer.vue'
 
 export default {
-  name: 'cmp name',
-//  props: {
-//    car: Object,
-//  },
   created() {},
   data() {
     return {}
@@ -24,7 +21,8 @@ export default {
   computed: {},
   components: {
     appHeader,
-    appMain
+    appMain,
+    appFooter,
   },
   unmounted() {},
 }

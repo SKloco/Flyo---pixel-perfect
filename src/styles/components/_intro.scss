@@ -3,6 +3,10 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    background-color: $intemail;
+    background-image: url("/src/assets/bg-curvy-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
     img{
         width: 720px;
         cursor: pointer;
