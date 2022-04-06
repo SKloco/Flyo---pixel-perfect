@@ -1,24 +1,33 @@
-.review-preview{
-
-    img{
-        border-radius: 100%;
-        width: 24px;
+.review-preview {
+    background-color: #202A3C;
+    border-radius: 3%;
+  .container {
+    display: flex;
+    justify-content: start;
+    
+  }
+  img {
+    border-radius: 100%;
+    width: 24px;
+  }
+  .review {
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+    
+  }
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    .name {
+      font-family: OpenSans-Bold;
+      font-size: 10px;
+      width: 100%;
     }
-    .container{
-        display: flex;
-        justify-content: start;
+    .job {
+      font-family: OpenSans-Regular;
+      font-size: 7px;
+      width: 100%;
     }
-    .card{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        .name{
-            font-family: OpenSans-Bold;
-            font-size: 10px;
-        }
-        .job{
-            font-family: OpenSans-Regular;
-            font-size: 7px;
-        }
-    }
+  }
 }

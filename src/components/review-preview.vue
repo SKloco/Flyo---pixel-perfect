@@ -2,10 +2,9 @@
   <section class="review-preview">
     <span class="review">{{ review.review }} </span>
     <div class="container">
-      <img :src="'/src/assets/' + review.svg" />
+      <img :src="'../src/assets/' + review.svg" />
       <div class="card">
         <span class="name">{{ review.fullName }} </span>
-        <br />
         <span class="job">{{ review.job }} </span>
       </div>
     </div>
