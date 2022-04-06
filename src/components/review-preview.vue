@@ -1,9 +1,14 @@
 <template>
   <section class="review-preview">
+    <span class="review">{{ review.review }} </span>
+    <div class="container">
       <img :src="'/src/assets/' + review.svg" />
-      <span class="title">{{ review.review }} </span>
-      <span class="description">{{ review.fullName }} </span>
-      <span class="description">{{ review.job }} </span>
+      <div class="card">
+        <span class="name">{{ review.fullName }} </span>
+        <br />
+        <span class="job">{{ review.job }} </span>
+      </div>
+    </div>
   </section>
 </template>
 

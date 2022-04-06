@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="review-list">
     <reviewPreview v-for="review in reviews" :key="review" :review="review" />
   </section>
 </template>
