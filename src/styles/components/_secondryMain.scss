@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 57px;
+  img {
+    width: 615px;
+  }
+  .textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    .title {
+      font-family: Raleway-Bold;
+      font-size: 40px;
+    }
+    .description {
+      font-family: OpenSans-Regular;
+      font-size: 16px;
+    }
+    .link {
+      color: #62e0d9;
+    }
+  }
+  .textarea > * {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,12 @@
+.feature-list{
+    // width: 880px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:80px 147px;
+
+    & > *{
+        flex-basis: calc(50% - 74px);
+        
+    }
+
+}
